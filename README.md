@@ -97,6 +97,6 @@ wazuh-siem-home-lab
 
 ## Author
 
-**Omosanya Femi**
+**Omosanya Femi (Bluegram)**
 
 Aspiring SOC Analyst | Building practical cybersecurity projects through hands-on labs.
