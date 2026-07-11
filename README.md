@@ -83,9 +83,9 @@ Verification that the Wazuh API is online and successfully communicating with th
 
 ## 5. Windows Endpoint Successfully Enrolled
 
-The Windows 10 endpoint successfully enrolled and reporting to the Wazuh Manager.
+The Windows 10 endpoint is successfully enrolled in Wazuh and actively communicating with the Wazuh Manager.
 
-![Agent Active](screenshots/05-agent-active.png)
+![Windows Endpoint](screenshots/05-agent-active.png)
 
 ---
 
@@ -93,7 +93,7 @@ The Windows 10 endpoint successfully enrolled and reporting to the Wazuh Manager
 
 Verification from the Ubuntu Server confirming that both the Wazuh Manager and Windows endpoint are active.
 
-![Agent Control](screenshots/07-agent-control-terminal.png)
+![Agent Control](screenshots/06-agent-control-terminal.png)
 
 ---
 
