@@ -1,102 +1,147 @@
 # Wazuh SIEM Home Lab
 
-## Project Overview
+> **Status:** 🟢 Active Development (30-Day SOC Analyst Home Lab Challenge)
 
-This project documents the design, deployment, and operation of a Security Information and Event Management (SIEM) home lab using Wazuh. The lab was built in Oracle VirtualBox using Ubuntu Server as the SIEM server and Windows 10 as the monitored endpoint.
+A hands-on Security Information and Event Management (SIEM) home lab built using **Wazuh**, **Ubuntu Server 24.04 LTS**, **Windows 10**, and **Oracle VirtualBox**.
 
-The objective of this project is to gain hands-on experience in SOC operations, endpoint monitoring, log analysis, threat detection, and incident investigation.
-
----
-
-## Objectives
-
-- Build a functional SIEM home lab
-- Deploy Wazuh Server on Ubuntu Server
-- Configure a Windows 10 endpoint
-- Connect the Windows endpoint to the Wazuh Manager
-- Monitor endpoint activity
-- Analyze security events
-- Perform incident investigations
-- Document the entire deployment process
+This project demonstrates the deployment, configuration, and operation of a SIEM platform for monitoring endpoints, collecting security events, investigating alerts, and developing practical SOC Analyst skills through real-world lab exercises.
 
 ---
 
-## Lab Environment
+# Project Objectives
 
-| Component | Details |
-|-----------|---------|
-| Host Machine | Windows 10 |
-| Hypervisor | Oracle VirtualBox 7.2.8 |
+- Deploy a Wazuh SIEM server from scratch.
+- Configure Ubuntu Server as the Wazuh Manager.
+- Install and enroll a Windows 10 endpoint agent.
+- Monitor endpoint activity using the Wazuh Dashboard.
+- Investigate security events and alerts.
+- Practice SOC Analyst workflows.
+- Document the entire process in a professional GitHub portfolio.
+
+---
+
+# Lab Environment
+
+| Component | Technology |
+|-----------|------------|
 | SIEM Platform | Wazuh 4.12 |
-| Server OS | Ubuntu Server 24.04.4 LTS |
-| Endpoint | Windows 10 |
-| Network Mode | Bridged Adapter |
+| Server Operating System | Ubuntu Server 24.04 LTS |
+| Endpoint Operating System | Windows 10 |
+| Virtualization | Oracle VirtualBox |
+| Network Configuration | Bridged Adapter |
 
 ---
 
-## Network Configuration
+# Skills Demonstrated
 
-| Device | IP Address |
-|---------|------------|
-| Ubuntu Wazuh Server | 192.168.1.153 |
-| Windows 10 Endpoint | 192.168.1.47 |
-
----
-
-## Current Project Status
-
-- [x] Ubuntu Server installed
-- [x] Wazuh Server installed
-- [x] Wazuh Dashboard operational
-- [x] Windows Agent installed
-- [x] Windows Agent enrolled
-- [x] Endpoint communicating with Wazuh
-
----
-
-## Skills Demonstrated
-
-- Linux Administration
-- Windows Administration
-- Oracle VirtualBox
-- Wazuh SIEM Deployment
-- Endpoint Monitoring
+- SIEM Deployment
+- Ubuntu Linux Administration
+- Windows Endpoint Monitoring
+- Wazuh Agent Management
+- Log Collection
 - Network Configuration
-- Service Troubleshooting
+- Virtualization
 - Security Monitoring
+- Troubleshooting
 - Technical Documentation
 
 ---
 
-## Upcoming Work
+# Screenshots
 
-- Install Sysmon
-- Configure advanced log collection
-- Investigate Windows Security Events
-- Build custom detection rules
-- Map detections to MITRE ATT&CK
-- Perform threat hunting
-- Document security incidents
+## 1. Virtual Lab Environment
+
+The complete VirtualBox lab consisting of an Ubuntu Wazuh Server and a Windows 10 endpoint.
+
+![VirtualBox Lab](screenshots/01-virtualbox-lab-environment.png)
 
 ---
 
-## Repository Structure
+## 2. Ubuntu Wazuh Server
 
-```
-wazuh-siem-home-lab
-│
-├── README.md
-├── screenshots
-├── diagrams
-├── commands
-├── incident-reports
-└── docs
-```
+Ubuntu Server successfully configured with Wazuh Manager and connected to the network.
+
+![Ubuntu Server](screenshots/02-ubuntu-server-login.png)
 
 ---
 
-## Author
+## 3. Wazuh Dashboard
 
-**Omosanya Femi (Bluegram)**
+Successful login to the Wazuh Dashboard after completing the installation and configuration.
 
-Aspiring SOC Analyst | Building practical cybersecurity projects through hands-on labs.
+![Wazuh Dashboard](screenshots/03-wazuh-dashboard-login.png)
+
+---
+
+## 4. Wazuh API Status
+
+Verification that the Wazuh API is online and successfully communicating with the Dashboard.
+
+![API Online](screenshots/04-api-online.png)
+
+---
+
+## 5. Windows Endpoint Successfully Enrolled
+
+The Windows 10 endpoint successfully enrolled and reporting to the Wazuh Manager.
+
+![Agent Active](screenshots/05-agent-active.png)
+
+---
+
+## 6. Agent Verification from the Server
+
+Verification from the Ubuntu Server confirming that both the Wazuh Manager and Windows endpoint are active.
+
+![Agent Control](screenshots/07-agent-control-terminal.png)
+
+---
+
+# Project Status
+
+- ✅ Oracle VirtualBox Lab Created
+- ✅ Ubuntu Server Installed
+- ✅ Wazuh Manager Installed
+- ✅ Wazuh Dashboard Configured
+- ✅ Windows 10 Endpoint Connected
+- ✅ Wazuh Agent Successfully Enrolled
+- ✅ Agent Communication Verified
+- 🔄 Security Monitoring (In Progress)
+- 🔄 Alert Investigation (Upcoming)
+- 🔄 Threat Hunting (Upcoming)
+- 🔄 Incident Response (Upcoming)
+
+---
+
+# Learning Goals
+
+This project is part of a structured 30-day SOC Analyst learning journey focused on building practical cybersecurity skills through hands-on experience.
+
+Upcoming activities include:
+
+- Security Event Monitoring
+- Log Analysis
+- MITRE ATT&CK Mapping
+- Threat Hunting
+- Brute Force Detection
+- Malware Detection
+- Windows Event Log Analysis
+- Incident Investigation
+- Custom Detection Rules
+- Security Reporting
+
+---
+
+# Author
+
+**Femi Sanya (Bluegram)**
+
+Aspiring SOC Analyst | Cybersecurity Enthusiast
+
+GitHub: https://github.com/femisanya-femi
+
+---
+
+**Thank you for visiting this project!**
+
+This repository will continue to grow as more security monitoring, detection engineering, threat hunting, and incident response scenarios are completed throughout the 30-day SOC Analyst Home Lab challenge.
